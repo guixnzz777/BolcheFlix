@@ -1,0 +1,76 @@
+body {
+    color: rgb(0, 0, 0);
+    background: #ffffff;
+    margin: 50px;
+    font-family: "Bebas Neue", sans-serif;
+    font-style: normal;
+    margin-bottom: 100px;
+}
+      
+
+header {
+    border-bottom: solid 3px black;
+    padding: 10px;
+    font-size: 80px;
+    color:rgb(208, 0, 0);
+}
+
+.destaque{
+    background: rgb(255, 38, 38);
+    padding-bottom: 25px;
+    padding-top: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.text{
+    margin-right: 15%;
+}
+
+h1{
+    font-size: 65px;
+    margin-bottom: 5%;
+}
+
+p{
+   font-size: 45px;
+   margin-top: 5px;
+}
+
+img{
+    height: 200px;
+    border-radius: 3%;
+}
+
+.lista-videos h2{
+    padding-left: 30px;
+    padding-right: 30px;
+    color: rgb(208, 0, 0);
+    text-decoration-line: overline;
+}
+
+.lista-videos {
+    margin-top: 60px;
+}
+
+.conceitos, .contemporaneo{
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.conceitos, .contemporaneo img{
+    opacity: 0.85;
+}
+
+.conceitos img:hover{
+    opacity: 1;
+    border: 3px solid rgb(208, 0, 0);
+}
+
+.contemporaneo img:hover{
+    opacity: 1;
+    border: 3px solid rgb(208, 0, 0);
+}
