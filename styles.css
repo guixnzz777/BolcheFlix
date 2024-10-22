@@ -61,7 +61,11 @@ img{
     gap: 10px;
 }
 
-.conceitos, .contemporaneo img{
+.contemporaneo img{
+    opacity: 0.85;
+}
+
+.conceitos img{
     opacity: 0.85;
 }
 
